@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/brown"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Header1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:paddingTop="50dp"
+            android:paddingBottom="20dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:text="T a g T r e n d" />
+
+        <TextView
+            android:id="@+id/Header2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="20dp"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            android:text="Custom Hashtag Generator" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:background="@drawable/border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:inputType="text"
+            android:hint="Enter your keyword!" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:textSize="25dp"
+            android:text="Generate" />
+
+        <EditText
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:padding = "20dp"
+            android:background="@drawable/border"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
