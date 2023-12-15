@@ -1,5 +1,8 @@
 # TagTrend: Custom Hashtag Generator
 
+https://github.com/thetmyatnoel/MobileProgramming2023/assets/126442096/7949a4e4-76aa-4326-86dd-26da83cc1b7d
+
+
 ## Introduction
 TagTrend is a mobile application designed to generate relevant and trending hashtags for social media content. Utilizing the Hashtagy API, the app aims to enhance user engagement on platforms like Instagram and Twitter.
 
@@ -35,9 +38,3 @@ A basic but functional hashtag generator app ready for user testing and feedback
 
 ## Conclusion
 TagTrend, in its initial version, will serve as a quick and efficient tool for social media users to enhance their online presence through effective hashtag usage. Post the initial development phase, the app can be refined and expanded based on user feedback and market trends.
-
-
-
-https://github.com/thetmyatnoel/MobileProgramming2023/assets/126442096/7bbd935b-207d-4185-b955-b9c4528ae2f3
-
-
